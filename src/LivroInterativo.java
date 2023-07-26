@@ -47,6 +47,7 @@ public class LivroInterativo {
 
             int escolhaCapitulo2 = capitulo2.escolher();
             if (escolhaCapitulo2 == 0) {
+                personaDiana.morrer();
                 System.out.println(
                         "Diana vendo que o bebê corria perigo vai em direção do mesmo, mas como o ataque anterior dela havia deixado o gelo muito frágil, contudo consegue chegar até a criança e os dois se salvam. Energia Diana: "
                                 + personaDiana.mostrarEnergia() + "\n\n\n FIM.");
